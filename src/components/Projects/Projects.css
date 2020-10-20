@@ -1,0 +1,13 @@
+.Projects {
+  margin-top: 10rem !important;
+}
+
+.Projects-text {
+  font-weight: 600!important;
+}
+.Projects-info{
+    width: 60%;
+    color: rgb(104, 104, 104);
+  letter-spacing: 0.4px;
+  line-height: 2; 
+}

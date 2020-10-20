@@ -1,0 +1,19 @@
+.Head-hr{
+    display: inline-block;
+    text-align:center;
+    border-top: 2px solid #777777;
+  border-radius: 5px;
+  width: 25%;
+}
+
+.Head-fab{
+    display: inline-block;
+    text-align:center;
+    background-color: #ffffff!important;
+    border: 2px solid #777777!important ;
+    box-shadow: none!important;
+}
+.Head-fab:hover{
+    color: rgb(0, 0, 0);
+}
+
