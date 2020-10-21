@@ -1,19 +1,14 @@
-.Skills {
-  margin-top: 10rem !important;
-}
-
 .Skills-text {
   font-weight: 600!important;
 }
 
 .Skills-info{
-    width: 60%;
     color: rgb(104, 104, 104);
   letter-spacing: 0.4px;
   line-height: 2; 
 }
 
 .Skills-set{
-    font-size: large;
+    font-size: 1rem;
     font-weight: bold;
 }

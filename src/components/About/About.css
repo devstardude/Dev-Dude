@@ -1,6 +1,4 @@
-.About {
-  margin-top: 10rem !important;
-}
+
 
 .About-text {
   font-weight: 600;
@@ -10,12 +8,9 @@
   letter-spacing: 0.4px;
   line-height: 2;
 }
-.About-image-container{
-    text-align: center;
-}
 .About-image{
-    height: 230px;
-    width: 230px;
+    height: 100%;
+    width: 100%;
     border:6px solid #adadad;
     border-radius: 50%;
 }

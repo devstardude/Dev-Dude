@@ -10,11 +10,11 @@ import { Fab, Zoom } from "@material-ui/core";
 const HeadSociaLinks = (props) => {
   return (
     <React.Fragment>
-      <div className="container pl-0 md-1 mt-1 ml-0 d-inline">
-        <hr className="Head-hr  ml-0 align-middle" d-inline-block />
-        <div className="d-inline-block ">
+      <div className="">
+        <hr className="Head-hr " />
+        <div className="mx-auto text-center ">
           <Zoom in={true} timeout={500}>
-            <Fab size="small" className=" Head-fab ml-4 mr-4">
+            <Fab size="small" className=" Head-fab mr-4">
               <InstagramIcon />
             </Fab>
           </Zoom>
@@ -30,7 +30,7 @@ const HeadSociaLinks = (props) => {
             </Fab>
           </Zoom>
           <Zoom in={true} timeout={1400}>
-            <Fab size="small" className=" Head-fab mr-4">
+            <Fab size="small" className=" Head-fab ">
               <YouTubeIcon />
             </Fab>
           </Zoom>

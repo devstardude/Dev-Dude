@@ -5,12 +5,11 @@ import'./BigIntro.css';
 
 const BigIntro = (props)=>{
     return (
-      <div className="container-fluid ml-0 pl-0 mt-4">
+      <div className="container-fluid px-0 py-5 ">
         <Fade
           direction="down"
           in={true}
-          //   style={{ transitionDelay: "600ms" }}
-          style={{ transformOrigin: "0 0 0" }}
+          style={{ transitionDelay: "600ms", transformOrigin: "0 0 0" }}
           timeout={1500}
           mountOnEnter
           unmountOnExit

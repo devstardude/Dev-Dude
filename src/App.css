@@ -1,3 +1,10 @@
 .App {
   font-family: 'Mulish', sans-serif;
 }
+
+.About-info{
+  padding-left: 3px
+}
+.Skills-info{
+  padding-left: 1px;
+}

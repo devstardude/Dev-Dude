@@ -15,9 +15,10 @@ button:focus {outline:0;}
 }
 
 .Top-button-project{
-    font-size: 110%!important;
+     font-size: 110%!important;
     font-weight: 500!important;
     color: rgb(255, 255, 255)!important;
     border: 2px solid #212429!important;
     background-color: #1690d6cc!important;
 }
+

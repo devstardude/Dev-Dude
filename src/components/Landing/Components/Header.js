@@ -6,10 +6,11 @@ import "./Header.css";
 const Header = (props) => {
   return (
     <React.Fragment>
-      <Fade in={true} timeout={700}>
-        <h3 className="Header-text pt-4 mb-0">Buon Giorno ☀</h3>
-      </Fade>
-      <hr className="Header-hr m-5 " />
+      <div className="text-center">
+        <Fade in={true} timeout={700}>
+          <h3 className="Header-text">Buon Giorno ☀</h3>
+        </Fade>
+      </div>
     </React.Fragment>
   );
 };
