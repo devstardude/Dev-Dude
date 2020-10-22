@@ -1,5 +1,4 @@
 import React from 'react';
-import { Card, ImageHeader, CardBody, CardFooter } from "react-simple-card";
 
 import'./ProjectTitle.css';
 import ProjectItem from './ProjectItem';

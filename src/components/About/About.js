@@ -26,7 +26,7 @@ const About = (props) => {
           </div>
         </div>
         <div class="col-sm-4 text-center">
-          <div className="px-5 py-4">
+          <div className="px-5 pt-4 py-2">
             <img className="About-image" src={dp} alt="dp.jpg" />
           </div>
         </div>

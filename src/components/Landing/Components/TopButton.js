@@ -56,7 +56,7 @@ const TopButton = (props) => {
             to="section-project"
             spy={true}
             smooth={true}
-            duration={1000}
+            duration={1300}
           >
             <Fade in timeout={1600}>
               <Fab
