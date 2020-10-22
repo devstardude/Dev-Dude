@@ -11,8 +11,10 @@ const HeadSociaLinks = (props) => {
   return (
     <React.Fragment>
       <div className="">
-        <hr className="Head-hr " />
-        <div className="mx-auto text-center ">
+        <div className="allignn text-center align-middle">
+          <hr className="Head-hr " />
+        </div>
+        <div className="mx-auto text-center d-md-inline-block ">
           <Zoom in={true} timeout={500}>
             <Fab size="small" className=" Head-fab mr-4">
               <InstagramIcon />

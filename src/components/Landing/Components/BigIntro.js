@@ -5,7 +5,7 @@ import'./BigIntro.css';
 
 const BigIntro = (props)=>{
     return (
-      <div className="container-fluid px-0 py-5 ">
+      <div className="container-fluid px-0 py-5">
         <Fade
           direction="down"
           in={true}

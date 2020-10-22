@@ -7,7 +7,7 @@ import HeadSocialLinks from "../Components/HeadSocialLinks";
 
 const Landing = (props)=>{
     return (
-      <section className="my-2 py-5">
+      <section className="my-2 py-5 mx-md-2 px-md-2">
         <Header />
         <HeadSocialLinks />
         <BigIntro />

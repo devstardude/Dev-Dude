@@ -8,11 +8,11 @@ import Skills from "./components/Skills/page/Skills";
 
 function App() {
   return (
-    <div className="container App">
-      <Landing/>
-      <About/>
-      <Skills/>
-      <Project/>
+    <div className="container-fluid px-md-5 px-md-3 App">
+      <Landing />
+      <About />
+      <Skills />
+      <Project />
     </div>
   );
 }

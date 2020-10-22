@@ -43,7 +43,7 @@ const PROJECTS = [
     name: "Shop Sharer",
     description:
       "An app to make shopping lists from multiple online store, and Share the list with your friends to manage the list from both side",
-    tech: ["React", "Firebase", "Firestore","React-hooks", "Image-upload"],
+    tech: ["React", "Firebase", "Firestore","React-hooks","Google-SignIn", "Image-upload"],
     image: `${shop}`,
   },
   {

@@ -8,12 +8,12 @@ import'./ProjectItem.css';
 
 const ProjectItem = (props) => {
   return (
-    <div class="container ">
+    <div class="container-fluid">
       <div class="row mt-4 ">
         {PROJECTS.map((project) => (
-          <div class="col-12 col-md-6 my-1  px-0">
+          <div class="col-12 col-md-6 my-2 px-0 pl-md-0 pr-md-5 py-md-3 ">
             <Card>
-              <ImageHeader alt="testAlt" imageSrc={project.image} />
+              <ImageHeader alt="image" imageSrc={project.image} />
               <CardBody>
                 <h4>{project.name} </h4>
                 <p>{project.description}</p>

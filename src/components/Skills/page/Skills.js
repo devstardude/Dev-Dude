@@ -6,7 +6,7 @@ import SkillsTitle from "../Components/SkillsTitle"
 
 const Skills = (props)=>{
     return (
-      <section id="section-skills" class="container py-3 Skills">
+      <section id="section-skills" class="container-fluid py-3 py-md-5 Skills">
         <SkillsTitle />
         <SkillsItems />
       </section>

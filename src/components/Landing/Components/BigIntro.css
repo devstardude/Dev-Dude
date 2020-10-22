@@ -8,3 +8,11 @@
 .Developer-text{
     color: #1690d6cc;
 }
+
+@media(min-width:768px){
+    .Big-intro{
+    font-size: 3.2rem!important;
+    line-height: 5rem;
+    font-weight:700;
+}
+}

@@ -8,7 +8,7 @@ const TopButton = (props) => {
   return (
     <div className="container no-gutters ">
       <div className="row">
-        <div className="About-button col-6 text-center">
+        <div className="About-button col-6 col-md-3 col-lg-2 text-center text-md-left pl-md-0">
           <Link
             activeClass="active "
             to="section-about"
@@ -29,13 +29,13 @@ const TopButton = (props) => {
             </Fade>
           </Link>
         </div>
-        <div className="Skills-button col-6 text-center">
+        <div className="Skills-button col-6 col-md-3 col-lg-2 text-center text-md-left pl-md-0 ">
           <Link
             activeClass="active "
             to="section-skills"
             spy={true}
             smooth={true}
-            duration={1000}
+            duration={1200}
           >
             <Fade in timeout={1600}>
               <Fab
@@ -50,7 +50,7 @@ const TopButton = (props) => {
             </Fade>
           </Link>
         </div>
-        <div className="Project-button col-12 text-center ">
+        <div className="Project-button col-12 col-md-3 col-lg-2 text-center text-md-left pl-md-0">
           <Link
             activeClass="active "
             to="section-project"
@@ -63,7 +63,7 @@ const TopButton = (props) => {
                 variant="extended"
                 size="medium"
                 aria-label="add"
-                className="Top-button-project mt-3 px-4"
+                className="Top-button-project mt-3 px-4  mt-md-0 "
               >
                 <KeyboardArrowDownIcon />
                 Projects
