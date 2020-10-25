@@ -4,7 +4,10 @@ import About from './components/About/About';
 
 import Landing from './components/Landing/page/Landing';
 import Project from "./components/Projects/page/Project";
+import ReachMe from './components/ReachMe/ReachMe';
 import Skills from "./components/Skills/page/Skills";
+import Insta from "./components/insta/Insta";
+
 
 function App() {
   return (
@@ -13,6 +16,8 @@ function App() {
       <About />
       <Skills />
       <Project />
+      <ReachMe/>
+      <Insta />
     </div>
   );
 }

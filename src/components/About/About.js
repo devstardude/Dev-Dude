@@ -1,4 +1,3 @@
-import { Fade } from "@material-ui/core";
 import React from "react";
 import dp from "../../assets/dp.jpg"
 
@@ -7,14 +6,14 @@ import "./About.css";
 const About = (props) => {
   return (
     <section id="section-about" class="container-fluid pt-5 pd-2 About">
-      <h2 className="About-text">Who... Me ??</h2>
+      <h2 className="About-text">Who... Me ?</h2>
       <div class="row ">
         <div class=" col-12 col-lg-8">
           <div className="About-info pt-2">
-            I am web Developer || Designer focused on crafting great web
+            I am Web Developer & Designer focused on crafting great web
             experiences. Coding and Designing have been my passion since the
-            days I started working with computers but I found myself into web
-            development/design since last year
+            days I started working with computers but I found myself into Web
+            development since last year
             <br />
             I enjoy creating beautifully designed, intuitive and functional
             websites.
@@ -27,10 +26,8 @@ const About = (props) => {
           </div>
         </div>
         <div class=" col-12 col-lg-4 text-center">
-          <div className="px-5 py-5 pt-lg-0">
-            <Fade in timeout={1500}>
-              <img className="About-image" src={dp} alt="dp.jpg" />
-            </Fade>
+          <div className="px-5 py-5 pt-lg-0">            
+              <img className="About-image" src={dp} alt="dp.jpg" />           
           </div>
         </div>
       </div>
