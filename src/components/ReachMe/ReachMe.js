@@ -47,6 +47,7 @@ const ReachMe = (props) => {
               <a
                 className="reachme-link pt-2"
                 href="www.linkedin.com/in/arun-shekhar"
+                target="_blank"
               >
                 www.linkedin.com/in/arun-shekhar
               </a>
@@ -61,6 +62,7 @@ const ReachMe = (props) => {
               <a
                 className="reachme-link pt-2"
                 href="https://github.com/imdude001"
+                target="_blank"
               >
                 www.github.com/imdude001
               </a>

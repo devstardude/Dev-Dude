@@ -12,7 +12,7 @@ const ProjectItem = (props) => {
       <div class="row mt-4 ">
         {PROJECTS.map((project) => (
           <div class="col-12 col-md-6 my-2 px-0 pl-md-0 pr-md-5 py-md-3 ">
-            <Card>
+            <Card  >
               <ImageHeader alt="image" imageSrc={project.image} />
               <CardBody>
                 <h4>{project.name} </h4>
@@ -36,7 +36,7 @@ const ProjectItem = (props) => {
                         <a className="Project-links" href="">
                           View Project{" "}
                         </a>
-                        💙
+                        ⚡
                       </h6>
                     </div>
                     <div className="col-6 mx-0 px-0 ">

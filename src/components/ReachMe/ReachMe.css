@@ -3,7 +3,7 @@
 }
 
 .reachme-info{
-    color: rgb(104, 104, 104);
+    color: #686868;
   letter-spacing: 0.4px;
   line-height: 2; 
 }
@@ -15,8 +15,10 @@
 .reachme-link{
     font-weight: 700;
     color: #070707;
-    text-decoration: underline;
+    border-bottom: 2px solid black;
 }
 .reachme-link:hover{
 color: #070707;
+    text-decoration: none;
+
 }
