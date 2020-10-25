@@ -38,7 +38,7 @@ const ReachMe = (props) => {
               </a>
             </h6>
           </div>
-          <div className="col-12 col-md-4 my-4 my-md-0 text-center">
+          <div className="col-12 col-md-4 my-5 my-md-0 text-center">
             <h4 className="reachme-text ">
               LinkedIn Profile{" "}
               <LinkedInIcon style={{ color: "0e76a8" }} fontSize="large" />{" "}
@@ -46,7 +46,7 @@ const ReachMe = (props) => {
             <h6>
               <a
                 className="reachme-link pt-2"
-                href="www.linkedin.com/in/arun-shekhar"
+                href="https://linkedin.com/in/arun-shekhar"
                 target="_blank"
               >
                 www.linkedin.com/in/arun-shekhar

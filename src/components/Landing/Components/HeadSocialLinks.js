@@ -38,7 +38,7 @@ const HeadSociaLinks = (props) => {
             <Fab
               size="small"
               className=" Head-fab mr-4"
-              href="www.linkedin.com/in/arun-shekhar"
+              href="https://linkedin.com/in/arun-shekhar"
             >
               <LinkedInIcon />
             </Fab>
