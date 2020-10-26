@@ -11,7 +11,7 @@ const ReachMe = (props) => {
       <h2 className="reachme-text">Get in touch with me...</h2>
       <div className="container-fluid no-gutters px-0 reachme-info pt-2">
         <p>
-          Here's few ways to reach me if you are...
+          Here are a few ways to reach me if you are...
           <br />
           <span className="reachme-info-bold">
             Looking for a Developer
@@ -19,7 +19,7 @@ const ReachMe = (props) => {
           <span className="reachme-info-bold">Want to ask something </span>
           🤔, or to{" "}
           <span className="reachme-info-bold">
-            See what i'm up to nowdays{" "}
+            See what I'm up to nowadays{" "}
           </span>{" "}
           ⚡
         </p>

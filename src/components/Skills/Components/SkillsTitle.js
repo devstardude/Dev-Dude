@@ -4,13 +4,13 @@ import "./SkillsTitle.css";
 
 const Skills = (props) => {
   return (
-    <div >
+    <div>
       <h2 className="Skills-text">Skills</h2>
       <div className="Skills-info pt-2">
-        Through my studies, I've gained a solid understanding of computer
-        science and web development concepts. This is what I bring to the table.
+        After completing lots of courses and resources these are the skills I
+        honed to create something beautiful for you.
       </div>
-      </div>
+    </div>
   );
 };
 

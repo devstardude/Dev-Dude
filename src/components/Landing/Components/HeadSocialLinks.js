@@ -20,6 +20,7 @@ const HeadSociaLinks = (props) => {
               size="small"
               className=" Head-fab mr-4"
               href="https://www.instagram.com/i_m_a.r.u.n/"
+              target="_blank"
             >
               <InstagramIcon />
             </Fab>
@@ -30,6 +31,7 @@ const HeadSociaLinks = (props) => {
               size="small"
               className=" Head-fab mr-4"
               href="https://github.com/imdude001"
+              target="_blank"
             >
               <GitHubIcon />
             </Fab>
@@ -39,12 +41,13 @@ const HeadSociaLinks = (props) => {
               size="small"
               className=" Head-fab mr-4"
               href="https://linkedin.com/in/arun-shekhar"
+              target="_blank"
             >
               <LinkedInIcon />
             </Fab>
           </Zoom>
           <Zoom in={true} timeout={1400}>
-            <Fab size="small" className=" Head-fab " href="">
+            <Fab size="small" className=" Head-fab " href="" target="_blank">
               <YouTubeIcon />
             </Fab>
           </Zoom>

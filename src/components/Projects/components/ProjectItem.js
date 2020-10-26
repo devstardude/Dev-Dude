@@ -12,7 +12,7 @@ const ProjectItem = (props) => {
       <div class="row mt-4 ">
         {PROJECTS.map((project) => (
           <div class="col-12 col-md-6 my-2 px-0 pl-md-0 pr-md-5 py-md-3 ">
-            <Card  >
+            <Card>
               <ImageHeader alt="image" imageSrc={project.image} />
               <CardBody>
                 <h4>{project.name} </h4>
@@ -33,7 +33,11 @@ const ProjectItem = (props) => {
                   <div className="row">
                     <div className="col-6 mx-0 px-0 ">
                       <h6 className="Project-links">
-                        <a className="Project-links" href="">
+                        <a
+                          className="Project-links"
+                          href={project.projectLink}
+                          target="_blank"
+                        >
                           View Project{" "}
                         </a>
                         ⚡
@@ -41,7 +45,11 @@ const ProjectItem = (props) => {
                     </div>
                     <div className="col-6 mx-0 px-0 ">
                       <h6>
-                        <a className="Project-links" href="">
+                        <a
+                          className="Project-links"
+                          href={project.githubLink}
+                          target="_blank"
+                        >
                           View Code{" "}
                         </a>
                         💻
