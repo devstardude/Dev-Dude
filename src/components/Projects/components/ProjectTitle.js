@@ -9,7 +9,7 @@ const Projects = (props)=>{
         <h2 className="Projects-text">Projects in a Nutshell</h2>
         <div className="Projects-info pt-2 pb-4">
           This video explains each project so that you don't have to figure out
-          everything yourself. Up the Volume and Enjoy 🔊🎶
+          everything yourself. Pump up the Volume and Enjoy 🔊🎶
         </div>
         <div className="pb-5">
           <div className="video-container">
