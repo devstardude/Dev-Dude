@@ -24,6 +24,7 @@ const Insta = (props) => {
               className="Insta-bottom-link"
               href="https://www.instagram.com/i_m_a.r.u.n/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Go to Intagram Profile
             </a>

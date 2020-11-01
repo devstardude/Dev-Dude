@@ -37,6 +37,7 @@ const ProjectItem = (props) => {
                           className="Project-links"
                           href={project.projectLink}
                           target="_blank"
+                          rel="noopener noreferrer"
                         >
                           View Project{" "}
                         </a>
@@ -49,6 +50,7 @@ const ProjectItem = (props) => {
                           className="Project-links"
                           href={project.githubLink}
                           target="_blank"
+                          rel="noopener noreferrer"
                         >
                           View Code{" "}
                         </a>
