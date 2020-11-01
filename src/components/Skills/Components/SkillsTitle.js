@@ -8,7 +8,7 @@ const Skills = (props) => {
       <h2 className="Skills-text">Skills</h2>
       <div className="Skills-info pt-2">
         After completing lots of courses and resources these are the skills I
-        honed to create something beautiful for you.
+        honed to create something beautiful for me and for you.
       </div>
     </div>
   );

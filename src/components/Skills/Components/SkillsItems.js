@@ -20,7 +20,8 @@ const SkillsItems = (props)=>{
           <div class="col-md-3 col-sm-6 col-5 mt-md-4 mt-3 ">⭐FIREBASE</div>
           <div class="w-100"></div>
           <div class="col-md-3 col-sm-6 col-7 mt-md-4 mt-3 ">⭐MONGODB</div>
-          <div class="col-md-3 col-sm-6 col-5 mt-md-4 mt-3 ">⭐PHOTOSHOP</div>
+          <div class="col-md-3 col-sm-6 col-5 mt-md-4 mt-3 ">⭐PYTHON</div>
+          <div class="col-md-3 col-sm-6 col-7 mt-md-4 mt-3 ">⭐PHOTOSHOP</div>
         </div>
       </div>
     );
