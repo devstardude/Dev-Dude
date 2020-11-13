@@ -28,7 +28,7 @@ const About = (props) => {
             I'm also a Student at JC Bose University, currently doing Btech in
             Electronics and Communication,
             <br />
-            And part of a coding club 'Manan'
+            And part of a coding club 'Manan'.
           </div>
         </div>
         <div class=" col-12 col-lg-4 text-center">

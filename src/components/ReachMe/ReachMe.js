@@ -26,7 +26,7 @@ const ReachMe = (props) => {
         <div className="row py-1 py-md-5 my-5">
           <div className="col-12 col-md-4 text-center">
             <h4 className="reachme-text">
-              Mail me at{" "}
+              Mail Me{" "}
               <MailOutlineIcon style={{ color: "#e34134" }} fontSize="large" />{" "}
             </h4>
             <h6>

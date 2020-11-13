@@ -16,11 +16,11 @@ const PROJECTS = [
       "Express",
       "MongoDB",
       "REST API",
-      "React-hoots",
+      "React-hooks",
       "Axios",
       "Multer",
       "Material-UI",
-      "Particlejs",
+      "Particles.js",
       "Image-upload",
     ],
     image: `${places}`,
@@ -36,7 +36,7 @@ const PROJECTS = [
       "React",
       "Redux",
       "Firebase",
-      "React-Lifecycles",
+      "React-lifecycles",
       "Class-based",
       "Redux-thunk",
       "Material-UI",
@@ -64,7 +64,7 @@ const PROJECTS = [
   {
     name: "Classy Blogs",
     description:
-      "A Featured Blog Post Project to Create, Edit, Delete posts, Also Markdown is also integrated to write a beautiful blog with pictures, links, and gif support",
+      "A Featured Blog Post Project to Create, Edit, Delete posts. Also Markdown is also integrated to write a beautiful blog with pictures, links, and gif support",
     tech: [
       "Node",
       "Express",
@@ -82,7 +82,7 @@ const PROJECTS = [
   {
     name: "Mailchimp Newsletter",
     description:
-      "A simple form to take the user's details and send them to Mailchimp which is a marketing automation platform and an email marketing service. So that you can send emails to your audience.",
+      "A simple form to take the user's details and send them to Mailchimp which is a marketing automation platform and an email marketing service, so that you can send emails to your audience.",
     tech: ["Node", "Ejs", "Express", "Bootstrap", "Mailchimp", "Mailchimp-API"],
     image: `${mail}`,
     projectLink: "https://mailchimpnewsletterproject.herokuapp.com/",
@@ -91,7 +91,7 @@ const PROJECTS = [
   {
     name: "Drum-Beatz / Click-Blip",
     description:
-      "A Starter Html, Css and Javascript focused projects, First one can make Drum beats and another one is Simon game",
+      "A Starter Html, Css and Javascript focused projects, First one can make Drum beats and another one is Simon game.",
     tech: ["Html", "Css", "Javascript", "Jquery"],
     image: `${drum}`,
     projectLink: "https://imdude001.github.io/Drum-Beatz/",
